@@ -1,0 +1,3 @@
+# Vercel deployment config
+# Zero config needed - Vercel auto-detects Astro
+# Just connect the repo and deploy

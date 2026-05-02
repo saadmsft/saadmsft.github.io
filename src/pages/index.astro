@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Saad Mahmood - Lead AI Architect at Microsoft';
+const description = 'Lead AI Architect at Microsoft, specializing in AI systems, cloud architecture, and enterprise AI solutions.';
+---
+
+<BaseLayout title={title} description={description}>
+  <nav>
+    <a href="/">Home</a> | 
+    <a href="/about">About</a> | 
+    <a href="/writing">Writing</a> | 
+    <a href="/talks">Talks</a> | 
+    <a href="/contact">Contact</a>
+  </nav>
+  
+  <main>
+    <h1>Saad Mahmood</h1>
+    <p class="subtitle">Lead AI Architect at Microsoft</p>
+    
+    <section>
+      <h2>About</h2>
+      <p>
+        I'm a Lead AI Architect at Microsoft, focused on building enterprise AI systems 
+        that scale. I work at the intersection of cloud architecture, AI/ML, and 
+        production systems.
+      </p>
+      <p>
+        <a href="/about">Learn more about my work →</a>
+      </p>
+    </section>
+    
+    <section>
+      <h2>Latest Writing</h2>
+      <p>
+        I write about AI architecture, cloud systems, and building production ML at scale.
+      </p>
+      <p>
+        <a href="/writing">Read my articles →</a>
+      </p>
+    </section>
+    
+    <section>
+      <h2>Connect</h2>
+      <p>
+        <a href="https://www.linkedin.com/in/saadmahmood" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+        <a href="https://github.com/saadmahmood" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+        <a href="/contact">Contact</a>
+      </p>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  nav {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--gray);
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--gray);
+    margin-top: 0.5rem;
+  }
+  
+  section {
+    margin: 3rem 0;
+  }
+</style>

@@ -1,0 +1,4 @@
+# Cloudflare Pages deployment
+# Build command: npm run build
+# Build output directory: dist
+# No additional config needed
